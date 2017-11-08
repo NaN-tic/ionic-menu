@@ -3,18 +3,18 @@ page-menu {
 }
 /* portrait */
 @media screen and (orientation:portrait) {
-	.list-items {
-		margin-top: 45px;
-		height: 50px;
+  .list-items {
+    margin-top: 45px;
+    height: 50px;
 	}
 }
 @media screen and (orientation:landscape) {
-	.list-items {
-		margin-top: 35px;
-		height: 50px;
+  .list-items {
+    margin-top: 35px;
+    height: 50px;
 	}
 }
 
 .title {
-	text-align: center;
+  text-align: center;
 }
