@@ -33,7 +33,6 @@ export class MenuPage {
    * @param {Object} entry  Entry information (name and page to go)
    */
   entryTapped($event, entry) {
-    console.log("Tapped entry", entry, entry.params);
     this.navCtrl.push(entry.page, {params: entry.params});
   }
 }
